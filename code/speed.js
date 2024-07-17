@@ -1,8 +1,8 @@
-function CarspeedDetector(){
+function carSpeedDetector(){
     //Prompt user for  car speed
-    const speedTest = prompt("Enter your speed");
+    const speedString = prompt("Enter your speed");
     //Check if user entered a value as well as convert the input to a number
-    const speed = parseInt(speedTest);
+    const speed = parseInt(speedString);
     const speedLimit = 70;
     const PointAbove = 5;
     if (speed === null || speedString.trim() === ""){

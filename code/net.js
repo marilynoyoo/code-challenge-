@@ -167,7 +167,7 @@ function nssfDeduction() {
     if (monthlySalary <= 7000 && monthPay >= 2024) {
         deduction = monthlySalary * 0.06;
         console.log( `NSSF deduction: ${deduction}`); return;
-    } else if (monthlySalary> 7000 && salary <= 36000 && monthPay >= 2024) {
+    } else if (monthlySalary> 7000 && monthlySalary <= 36000 && monthPay >= 2024) {
         deduction = monthlySalary * 0.06;
         console.log( `NSSF deduction: ${deduction}`); return;
     } else if (monthlySalary <=6000 && monthPay <=2023){
